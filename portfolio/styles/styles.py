@@ -56,3 +56,13 @@ button_solid_style = {
         "background": "rgba(255, 255, 255, 0.9)",
     }
 }
+
+STYLESHEETS = [
+    "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+]
+
+BASE_STYLE = {
+    rx.button: {
+        "--cursor-button": "pointer"
+    }
+}
