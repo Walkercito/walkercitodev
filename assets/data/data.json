@@ -1,10 +1,10 @@
 {
     "title": "Walkercito | Welcome!",
-    "description": "I'm Oliver, also known as Walker, a freelance programmer and 3D artist specializing in Python and TypeScript. EN/ES/IT",
+    "description": "Freelance programmer and 3D artist. Specializing in Python, TypeScript, and automation. Turning creative ideas into reality. EN/ES/IT.",
     "image": "/avatar.jpg",
     "avatar": "/avatar.jpg",
     "name": "Walkercito",
-    "skill": "Programmer, 3D artist, automation and bot specialist",
+    "skill": "Programmer | 3D Artist | Automation",
     "location": "Cienfuegos, Cuba.",
     "media": {
         "email": "walkercitoliver@gmail.com",
@@ -14,7 +14,7 @@
         "twitter": "https://x.com/Walkercitodt",
         "telegram": "https://t.me/Walkercito"
     },
-    "about": "As a versatile freelance developer, I craft robust solutions in Python and TypeScript, excelling in bot creation, web apps, database systems, and web scraping. My coding passion extends to game development with Godot 4.3 and Raspberry Pi 5 robotics projects. With a background in 3D animation and modeling, particularly for 3D printing, I bring a unique blend of technical and creative skills to every project. Let's transform your vision into reality. Let's bring your ideas to life!",
+    "about": "As a freelance developer, I specialize in delivering innovative solutions using Python and TypeScript. My expertise spans automation, web development, bot creation, and database systems. With a background in 3D animation and modeling for 3D printing, I bring a creative edge to technical projects. Passionate about game development with Godot and robotics with Raspberry Pi, I combine creativity and technology to craft efficient, tailored solutions. Let's collaborate to bring your ideas to life!",
     "technologies": [
         {
             "icon": "devicon-python-plain",
