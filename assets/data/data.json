@@ -82,7 +82,8 @@
                 }
             ],
             "image": "/demo.png",
-            "url": "https://arcadia-net.vercel.app/"
+            "url": "https://arcadia-net.vercel.app/",
+            "github": "https://github.com/Walkercito/arcadiaNET"
         },
         {
             "icon": "rss",
@@ -118,7 +119,8 @@
                 }
             ],
             "image": "pypi.png",
-            "url": "https://github.com/Walkercito/MohuanLED-Bluetooth_LED"
+            "url": "https://pypi.org/project/BlueLights/",
+            "github": "https://github.com/Walkercito/MohuanLED-Bluetooth_LED"
         },
         {
             "icon": "bot-message-square",
@@ -175,7 +177,8 @@
                 }
             ],
             "image": "/copyclip-logo.jpg",
-            "url": "https://github.com/Walkercito/CopyClip"
+            "url": "https://github.com/Walkercito/CopyClip/releases",
+            "github": "https://github.com/Walkercito/CopyClip"
         }
     ],
     "training": [
