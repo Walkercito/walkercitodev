@@ -57,6 +57,79 @@ button_solid_style = {
     }
 }
 
+tech_badge_style = {
+    "display": "flex",
+    "align_items": "center",
+    "gap": "0.5rem",
+    "padding": "0.5rem 1rem",
+    "border_radius": "0.375rem",
+    "transition": "all 0.2s",
+    "cursor": "pointer",
+    "background": "rgba(255, 255, 255, 0.05)",
+    "border": f"1px solid {Color.BORDER.value}",
+    "color": TextColor.PRIMARY.value,
+    "_hover": {
+        "transform": "scale(1.02)",
+        "background": "rgba(255, 255, 255, 0.1)",
+    }
+}
+
+icon_badge_style = {
+    "display": "flex",
+    "align_items": "center",
+    "justify_content": "center",
+    "background": "rgba(255, 255, 255, 0.05)",
+    "border": f"1px solid {Color.BORDER.value}",
+    "color": TextColor.PRIMARY.value,
+    "transition": "all 0.2s",
+    "_hover": {
+        "transform": "scale(1.02)",
+        "background": "rgba(255, 255, 255, 0.1)",
+    }
+}
+
+card_style = {
+    "background": "rgba(255, 255, 255, 0.05)",
+    "border": f"1px solid {Color.BORDER.value}",
+    "transition": "all 0.2s",
+    "_hover": {
+        "transform": "scale(1.02)",
+        "background": "rgba(255, 255, 255, 0.08)",
+    }
+}
+
+# Estilo para el enlace que elimina todas las decoraciones por defecto
+link_style = {
+    "text_decoration": "none",
+    "_hover": {
+        "text_decoration": "none",
+    },
+    "color": "inherit",  # Hereda el color del padre
+}
+
+text_content_style = {
+    "padding": EmSize.DEFAULT.value,
+}
+
+# Estilo para los badges de tecnología
+tech_badge_style = {
+    "background": "rgba(255, 255, 255, 0.05)",
+    "border": f"1px solid {Color.BORDER.value}",
+    "color": TextColor.PRIMARY.value,
+    "transition": "all 0.2s",
+    "_hover": {
+        "transform": "scale(1.02)",
+        "background": "rgba(255, 255, 255, 0.1)",
+    }
+}
+
+# Estilo para el texto de descripción
+description_style = {
+    "color": TextColor.SECONDARY.value,
+    "font_size": EmSize.DEFAULT.value,
+}
+
+
 STYLESHEETS = [
     "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
 ]

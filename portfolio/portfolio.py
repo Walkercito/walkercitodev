@@ -5,6 +5,9 @@ from portfolio.views.navbar import navbar
 from portfolio.views.header import header
 from portfolio.views.about import about
 from portfolio.views.tech_stack import tech_stack
+from portfolio.views.info import info
+from portfolio.views.extra import blogs
+from portfolio.views.footer import footer
 
 from portfolio.styles.styles import MAX_WIDTH, BASE_STYLE, STYLESHEETS
 from portfolio.styles.styles import Size, EmSize
@@ -22,7 +25,12 @@ def index() -> rx.Component:
                 about(DATA.about),
                 rx.divider(),
                 tech_stack(DATA.technologies),
+                info("Experience", DATA.experience),
+                info("Projects", DATA.projects),
+                info("Studies", DATA.training),
+                blogs(DATA.extras),
                 rx.divider(),
+                footer(DATA.media),
                 spacing = Size.MEDIUM.value,
                 padding_x = EmSize.MEDIUM.value,
                 padding_y = EmSize.BIG.value,

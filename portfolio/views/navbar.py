@@ -2,19 +2,23 @@ import reflex as rx
 
 from portfolio.styles.color import TextColor, Color
 from portfolio.styles.styles import Size, EmSize
-
+from portfolio.styles.styles import link_style
 
 
 def navbar() -> rx.Component:
     return rx.box(
         rx.hstack(
-            rx.text(
-                "Walkercito",
-                color = TextColor.PRIMARY.value,
-                font_size = EmSize.HALF.value,
-                font_weight = "light",
-                letter_spacing = "wider",
-                width = "100%"
+            rx.link(
+                rx.text(
+                    "Walkercito",
+                    color = TextColor.PRIMARY.value,
+                    font_size = EmSize.HALF.value,
+                    font_weight = "light",
+                    letter_spacing = "wider",
+                    width = "100%",
+                ),
+                href = "/",
+                style = link_style,
             ),
             width = "100%",
             margin_x = "auto",
