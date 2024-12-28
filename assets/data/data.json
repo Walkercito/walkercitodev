@@ -1,136 +1,210 @@
 {
-    "title": "Título",
-    "description": "Descripción",
-    "image": "/favicon.ico",
-    "avatar": "/favicon.ico",
-    "name": "Nombre",
-    "skill": "Habilidad principal",
-    "location": "Localización",
+    "title": "Walkercito | Welcome!",
+    "description": "I'm Oliver, also known as Walker, a freelance programmer and 3D artist specializing in Python and TypeScript. EN/ES/IT",
+    "image": "/avatar.jpg",
+    "avatar": "/avatar.jpg",
+    "name": "Walkercito",
+    "skill": "Programmer, 3D artist, automation and bot specialist",
+    "location": "Cienfuegos, Cuba.",
     "media": {
-        "email": "email@email.com",
-        "cv": "/data/cv.pdf",
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com",
+        "email": "walkercitoliver@gmail.com",
+        "cv": "/data/cv.docx",
+        "github": "https://github.com/Walkercito",
+        "linkedin": "https://www.linkedin.com/in/oliver-garc%C3%ADa-1a7074287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
         "twitter": "https://x.com/Walkercitodt",
         "telegram": "https://t.me/Walkercito"
     },
-    "about": "Descripción",
+    "about": "As a versatile freelance developer, I craft robust solutions in Python and TypeScript, excelling in bot creation, web apps, database systems, and web scraping. My coding passion extends to game development with Godot 4.3 and Raspberry Pi 5 robotics projects. With a background in 3D animation and modeling, particularly for 3D printing, I bring a unique blend of technical and creative skills to every project. Let's transform your vision into reality. Let's bring your ideas to life!",
     "technologies": [
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "icon": "devicon-python-plain",
+            "name": "Python"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "icon": "devicon-typescript-plain",
+            "name": "TypeScript"
         },
         {
-            "icon": "devicon-devicon-plain",
-            "name": "Tecnología"
+            "icon": "devicon-fastapi-plain",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "devicon-firebase-plain",
+            "name": "Firebase"
+        },
+        {
+            "icon": "devicon-sqlite-plain",
+            "name": "SQLite"
+        },
+        {
+            "icon": "devicon-cloudflare-plain",
+            "name": "Cloudflare"
+        },
+        {
+            "icon": "devicon-blender-original",
+            "name": "Blender"
+        },
+        {
+            "icon": "devicon-godot-plain",
+            "name": "Godot (v4.3)"
         }
     ],
     "experience": [
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años"
+            "icon": "code",
+            "title": "Freelance Programmer",
+            "subtitle": "Developer",
+            "description": "Developed sophisticated bots for Discord and Telegram, web applications with Reflex and FastAPI, web scraping projects, and AI-related projects.",
+            "date": "2020 - Present"
         },
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años"
+            "icon": "rotate-3d",
+            "title": "3D Animator and Modeler",
+            "subtitle": "3D Artist",
+            "description": "Created 3D models and animations with a focus on 3D printing projects.",
+            "date": "2019 - 2023"
         }
     ],
     "projects": [
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
+            "icon": "bird",
+            "title": "ArcadiaNET",
+            "subtitle": "90s-inspired IRC chatroom",
+            "description": "A real-time chatroom inspired by classic 90s IRC platforms. Users connect with a username to share text and emojis in a retro experience. Built with Reflex and accessible globally using ngrok.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
                 },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-reflex-plain",
+                    "name": "Reflex"
                 }
             ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
-            "github": "https://github.com"
+            "image": "/demo.png",
+            "url": "https://arcadia-net.vercel.app/"
         },
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
+            "icon": "rss",
+            "title": "Telegram Mini App",
+            "subtitle": "Web3 in pure Python",
+            "description": "Developed a Web3 application; “Llama's Garden” for decentralized gaming with TON in pure Python (Currently off due to maintenance).",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
-                },
-                {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
                 }
             ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
-            "github": "https://github.com"
+            "image": "/web3logo.jpg",
+            "url": "t.me/LlamaWeb3_bot"
         },
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
+            "icon": "bluetooth",
+            "title": "BlueLights",
+            "subtitle": "LEDs controller via Bluetooth",
+            "description": "BlueLights is a Python library designed for controlling MohuanLED Bluetooth lights. With this library, you can turn lights on/off, change colors, and apply various effects such as fading, strobe, and rainbow cycles. It also includes a GUI using PyQt6 for intuitive control of the lights.",
             "technologies": [
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
                 },
                 {
-                    "icon": "devicon-devicon-plain",
-                    "name": "Tecnología"
+                    "icon": "devicon-qt-original",
+                    "name": "PyQt6"
+                },
+                {
+                    "icon": "bluetooth-connected",
+                    "name": "Bleak"
                 }
             ],
-            "image": "/favicon.ico",
-            "url": "https://google.com",
-            "github": "https://github.com"
+            "image": "pypi.png",
+            "url": "https://github.com/Walkercito/MohuanLED-Bluetooth_LED"
+        },
+        {
+            "icon": "bot-message-square",
+            "title": "Adeptus Studio",
+            "subtitle": "Discord bot",
+            "description": "An advanced multi-purpose Discord bot with a wide range of features, including moderation, project administration, tickets, payment tracking, status checker, and more. Try it out!",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-discordjs-plain",
+                    "name": "discord.py"
+                },
+                {
+                    "icon": "devicon-sqlite-plain",
+                    "name": "SQLite"
+                }
+            ],
+            "image": "/adeptus.jpg",
+            "url": "https://discord.gg/hwZ2MxAvzW"
+        },
+        {
+            "icon": "home",
+            "title": "Home Automation System",
+            "subtitle": "Automation system",
+            "description": "Developed a home automation system based on Raspberry Pi for smart control.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-raspberrypi-plain",
+                    "name": "Raspberry Pi 5"
+                }
+            ],
+            "image": "/homeassistant-logo.jpg"
+        },
+        {
+            "icon": "copy",
+            "title": "CopyClip",
+            "subtitle": "Windows-like Clipboard Manager for Linux",
+            "description": "CopyClip is an open-source clipboard manager designed to replicate the advanced clipboard features of Windows 10 on Linux. It allows users to manage clipboard history, pin important items, and customize shortcuts.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-tkinter-plain",
+                    "name": "Tkinter"
+                }
+            ],
+            "image": "/copyclip-logo.jpg",
+            "url": "https://github.com/Walkercito/CopyClip"
         }
     ],
     "training": [
         {
-            "icon": "box-select",
-            "title": "Título",
-            "subtitle": "Subtítulo",
-            "description": "Descripción",
-            "date": "Años",
-            "certificate": "https://google.com"
+            "icon": "graduation-cap",
+            "title": "Harvard Online University",
+            "subtitle": "Certification in Data Science and AI",
+            "description": "Certified in AI algorithms and data science.",
+            "date": "2023",
+            "certificate": "https://harvard.edu"
         }
     ],
     "extras": [
         {
-            "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
+            "image": "/demo.png",
+            "title": "Blog: ArcadiaNET",
+            "description": "Sharing the development journey, challenges, and reflections on building ArcadiaNET. Blog post coming soon!",
             "url": ""
         },
         {
-            "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
-            "url": ""
+            "image": "/banner.jpg",
+            "title": "Python Code Jam",
+            "description": "Got 3rd Place and demonstrated advanced coding skills in a competitive environment with a Discord bot with the theme 'Information Overload'.",
+            "url": "https://pythondiscord.notion.site/Python-Discord-2024-Code-Jam-c5c9b7861b6d43a0882d0d4f1c89b7ac?pvs=4"
         },
         {
-            "image": "/favicon.ico",
-            "title": "Título",
-            "description": "Descripción",
+            "image": "3d.jpg",
+            "title": "3D Printing Projects",
+            "description": "Developed various custom 3D printing projects using Blender and advanced modeling techniques.",
             "url": ""
         }
     ]
