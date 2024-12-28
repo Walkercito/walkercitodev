@@ -27,16 +27,19 @@ def header(data: Data) -> rx.Component:
             width = "100%",
         ),
         rx.mobile_only(
+            rx.vstack(
+                media(data.media),
+                spacing = Size.SMALL.value,
+                align_items = "center"
+            ),
+            width = "100%"
+        ),
+        rx.tablet_and_desktop(
             rx.hstack(
                 media(data.media),
                 spacing = Size.SMALL.value,
                 justify = "center"
             ),
-            width = "100%"
-        ),
-        rx.tablet_and_desktop(
-            media(data.media),
-            spacing = Size.SMALL.value,
             width = "100%",
         ),
         spacing = Size.DEFAULT.value,
