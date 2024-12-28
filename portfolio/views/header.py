@@ -36,10 +36,6 @@ def header(data: Data) -> rx.Component:
         ),
         rx.tablet_and_desktop(
             rx.hstack(
-                rx.avatar(
-                    src=data.avatar,
-                    size=Size.BIG.value
-                ),
                 rx.vstack(
                     heading(data.name, True),
                     heading(data.skill),
