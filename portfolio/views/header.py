@@ -10,21 +10,25 @@ def header(data: Data) -> rx.Component:
     return rx.vstack(
         rx.mobile_only(
             rx.vstack(
-                rx.avatar(
-                    src=data.avatar,
-                    size=Size.BIG.value
-                ),
-                rx.vstack(
-                    heading(data.name, True),
-                    heading(data.skill),
-                    rx.text(
-                        rx.icon("map-pin"),
-                        data.location,
-                        display="inherit"
+                rx.hstack(
+                    rx.avatar(
+                        src=data.avatar,
+                        size=Size.BIG.value
                     ),
-                    media(data.media),
-                    spacing=Size.SMALL.value,
+                    rx.vstack(
+                        heading(data.name, True),
+                        heading(data.skill),
+                        rx.text(
+                            rx.icon("map-pin"),
+                            data.location,
+                            display="inherit"
+                        ),
+                        spacing=Size.SMALL.value,
+                    ),
+                    spacing=Size.DEFAULT.value,
+                    width="100%"
                 ),
+                media(data.media),
                 spacing=Size.DEFAULT.value,
                 align_items="center"
             ),
