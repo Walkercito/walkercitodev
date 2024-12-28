@@ -36,22 +36,9 @@ def header(data: Data) -> rx.Component:
         ),
         rx.tablet_and_desktop(
             rx.hstack(
-                rx.avatar(
-                    src=data.avatar,
-                    size=Size.BIG.value
-                ),
-                rx.vstack(
-                    heading(data.name, True),
-                    heading(data.skill),
-                    rx.text(
-                        rx.icon("map-pin"),
-                        data.location,
-                        display="inherit"
-                    ),
-                    media(data.media),
-                    spacing=Size.SMALL.value,
-                ),
-                spacing=Size.DEFAULT.value,
+                media(data.media),
+                spacing=Size.SMALL.value,
+                justify="center"
             ),
             width="100%"
         ),
