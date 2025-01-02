@@ -2,6 +2,7 @@ import reflex as rx
 
 from portfolio.components.heading import heading
 from portfolio.components.media_header import media
+from portfolio.components.media_header_phone import media as phone_media
 from portfolio.data import Data
 from portfolio.styles.styles import Size
 
@@ -28,7 +29,7 @@ def header(data: Data) -> rx.Component:
                     spacing=Size.DEFAULT.value,
                     width="100%"
                 ),
-                media(data.media),
+                phone_media(data.media),
                 spacing=Size.DEFAULT.value,
                 align_items="center"
             ),

@@ -13,6 +13,8 @@ from portfolio.styles.styles import MAX_WIDTH, BASE_STYLE, STYLESHEETS
 from portfolio.styles.styles import Size, EmSize
 from portfolio.styles.color import TextColor, Color
 
+from portfolio.pages.blogs.arcadianet_blog import ArcadiaBlog
+
 
 DATA = data.data
 
@@ -61,4 +63,10 @@ app.add_page(
         {"name": "og:description", "content": description},
         {"name": "og:image", "content": image}
     ]
+)
+app.add_page(
+    ArcadiaBlog,
+    title = "Blog: ArcadiaNET",
+    description = "Blog about ArcadiaNET's project",
+    route = "/blogs/arcadianet_blog"
 )
