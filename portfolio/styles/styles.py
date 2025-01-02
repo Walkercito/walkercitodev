@@ -46,6 +46,26 @@ button_surface_style = {
     }
 }
 
+kofi_button_style = {
+    **button_base_style,
+    "background": "#ff5f5f",  
+    "color": "#ffffff", 
+    "border": "1px solid #ff5f5f", 
+    "box-shadow": "0 4px 8px rgba(255, 95, 95, 0.6)",  
+    "transition": "transform 0.2s, box-shadow 0.2s", 
+    "_hover": {
+        "background": "#ff8989",  
+        "color": "#ffffff", 
+        "box-shadow": "0 6px 12px rgba(255, 95, 95, 0.8)", 
+        "transform": "scale(1.05)",  
+    },
+    "_active": {
+        "background": "#ff4b4b",  
+        "box-shadow": "0 2px 4px rgba(255, 95, 95, 0.4)",  
+        "transform": "scale(0.95)", 
+    }
+}
+
 button_solid_style = {
     **button_base_style,
     "background": TextColor.PRIMARY.value,

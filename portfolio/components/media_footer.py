@@ -14,6 +14,13 @@ def media(data: Media) -> rx.Component:
             data.email,
             True
         ),
+        icon_button(
+            "coffee",
+            data.kofi,
+            "Donate",
+            False,
+            True
+        ),
         rx.hstack(
             icon_button(
                 "file-text",

@@ -20,6 +20,7 @@ def index() -> rx.Component:
     return rx.box(
         navbar(),
         rx.center(
+
             rx.vstack(
                 header(DATA),
                 about(DATA.about),
