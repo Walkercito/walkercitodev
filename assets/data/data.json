@@ -22,6 +22,10 @@
             "name": "Python"
         },
         {
+            "icon": "devicon-cplusplus-plain",
+            "name": "C++"
+        },
+        {
             "icon": "devicon-typescript-plain",
             "name": "TypeScript"
         },
