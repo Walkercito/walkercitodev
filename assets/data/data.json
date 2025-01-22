@@ -26,6 +26,14 @@
             "name": "C++"
         },
         {
+            "icon": "devicon-c-plain",
+            "name": "C"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
             "icon": "devicon-typescript-plain",
             "name": "TypeScript"
         },
@@ -34,12 +42,20 @@
             "name": "FastAPI"
         },
         {
+            "icon": "devicon-flask-original",
+            "name": "Flask"
+        },
+        {
             "icon": "devicon-firebase-plain",
             "name": "Firebase"
         },
         {
             "icon": "devicon-sqlite-plain",
             "name": "SQLite"
+        },
+        {
+            "icon": "devicon-mongodb-plain",
+            "name": "MongoDB"
         },
         {
             "icon": "devicon-cloudflare-plain",
