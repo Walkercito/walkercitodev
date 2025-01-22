@@ -121,6 +121,23 @@
             "url": "t.me/LlamaWeb3_bot"
         },
         {
+            "icon": "bot",
+            "title": "Mr. Gato",
+            "subtitle": "AI-powered Discord bot",
+            "description": "One of the first entertainment bots to integrate AI for natural conversations with users. This pioneering Discord bot provided an interactive AI chat experience before it became commonplace. (Currently offline)",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-discordjs-plain",
+                    "name": "discord.py"
+                }
+            ],
+            "image": "/mrgato.jpg"
+        },
+        {
             "icon": "bluetooth",
             "title": "BlueLights",
             "subtitle": "LEDs controller via Bluetooth",
