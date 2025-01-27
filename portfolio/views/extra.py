@@ -8,7 +8,7 @@ from portfolio.styles.styles import Size
 
 def blogs(extras: list[Extra]) -> rx.Component:
     return rx.vstack(
-        heading("Blogs"),
+        heading("Blogs & Extra"),
         rx.mobile_only(
             rx.vstack(
                 *[
