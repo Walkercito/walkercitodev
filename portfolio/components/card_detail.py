@@ -1,7 +1,6 @@
 import reflex as rx
 
 from portfolio.data import Extra
-
 from portfolio.styles.styles import IMAGE_HEIGHT, Size, EmSize
 from portfolio.styles.color import TextColor, Color
 from portfolio.styles.styles import card_style, description_style, text_content_style
@@ -16,7 +15,7 @@ def card_detail(extra: Extra) -> rx.Component:
                     height = IMAGE_HEIGHT,
                     width = "100%",
                     object_fit = "cover",
-                    border_radius = f"{EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value}",  # Redondear solo las esquinas superiores
+                    border_radius = f"{EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value}",
                 ),
                 rx.vstack(
                     rx.text.strong(
@@ -37,12 +36,11 @@ def card_detail(extra: Extra) -> rx.Component:
                 align_items = "start",
                 width = "100%",
             ),
+            href = extra.url,
             _hover = {
                 "text_decoration": "none",
             }
         ),
         style = card_style,
         width = "100%",
-        href = extra.url,
-        is_external = False,
     )
