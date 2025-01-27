@@ -74,15 +74,15 @@
         {
             "icon": "code",
             "title": "Freelance Programmer",
-            "subtitle": "Developer",
-            "description": "Developed sophisticated bots for Discord and Telegram, web applications with Reflex and FastAPI, web scraping projects, and AI-related projects.",
+            "subtitle": "Specialized in automation, web development, and bots",
+            "description": "Created advanced bots for Telegram/Discord, web apps, and AI tools.",
             "date": "2020 - Present"
         },
         {
             "icon": "rotate-3d",
-            "title": "3D Animator and Modeler",
-            "subtitle": "3D Artist",
-            "description": "Created 3D models and animations with a focus on 3D printing projects.",
+            "title": "3D Artist",
+            "subtitle": "Focused on 3D printing and animation",
+            "description": "Designed and animated 3D models for printing and other creative projects.",
             "date": "2019 - 2023"
         }
     ],
@@ -222,11 +222,17 @@
     "training": [
         {
             "icon": "graduation-cap",
-            "title": "Harvard Online University",
-            "subtitle": "Certification in Data Science and AI",
-            "description": "Certified in AI algorithms and data science.",
-            "date": "2023",
-            "certificate": "https://harvard.edu"
+            "title": "CS50's Introduction to Computer Science",
+            "subtitle": "HarvardX - edX",
+            "description": "Certified in fundamental computer science and programming concepts.",
+            "date": "2023"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "CS50's Introduction to Computer Science (Retaking)",
+            "subtitle": "HarvardX - edX",
+            "description": "Currently retaking the course to refresh and deepen knowledge.",
+            "date": "2025"
         }
     ],
     "extras": [
