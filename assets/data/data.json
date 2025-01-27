@@ -245,14 +245,13 @@
         {
             "image": "/banner.jpg",
             "title": "Python Code Jam",
-            "description": "Got 3rd Place and demonstrated advanced coding skills in a competitive environment with a Discord bot with the theme 'Information Overload'.",
+            "description": "Participated in Python Game Jam with the team 'ardent-andromedas'. Secured 3rd place by creating an innovative Discord bot themed 'Information Overload'.",
             "url": "https://pythondiscord.notion.site/Python-Discord-2024-Code-Jam-c5c9b7861b6d43a0882d0d4f1c89b7ac?pvs=4"
         },
         {
             "image": "3d.jpg",
             "title": "3D Printing Projects",
             "description": "Developed various custom 3D printing projects using Blender and advanced modeling techniques.",
-            "url": ""
         }
     ]
 }
