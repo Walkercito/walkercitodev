@@ -14,7 +14,7 @@ from portfolio.styles.styles import Size, EmSize
 from portfolio.styles.color import TextColor, Color
 
 from portfolio.pages.blogs.arcadianet_blog import ArcadiaBlog
-
+from portfolio.pages.links.donations import Donations
 
 DATA = data.data
 
@@ -69,4 +69,10 @@ app.add_page(
     title = "Blog: ArcadiaNET",
     description = "Blog about ArcadiaNET's project",
     route = "/blogs/arcadianet_blog"
+)
+app.add_page(
+    Donations,
+    title = "Donations",
+    description = "Donations links",
+    route = "/donations/links"
 )
