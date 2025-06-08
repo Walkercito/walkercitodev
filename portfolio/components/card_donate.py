@@ -1,26 +1,21 @@
 import reflex as rx
 
 from portfolio.data import Extra
-from portfolio.styles.styles import IMAGE_HEIGHT, Size, EmSize
+from portfolio.styles.styles import Size, EmSize
 from portfolio.styles.color import TextColor, Color
 from portfolio.styles.styles import card_style, description_style, text_content_style
 
 
-def card_detail(extra: Extra) -> rx.Component:
+def card_donate(extra: Extra) -> rx.Component:
     return rx.card(
         rx.link(
             rx.vstack(
-                rx.image(
-                    src = extra.image,
-                    height = IMAGE_HEIGHT,
-                    width = "100%",
-                    object_fit = "cover",
-                    border_radius = f"{EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value} {EmSize.SMALL.value}",
-                ),
                 rx.vstack(
-                    rx.text.strong(
-                        extra.title,
-                        color = TextColor.PRIMARY.value,
+                    rx.hstack(
+                        rx.text.strong(
+                            extra.title,
+                            color = TextColor.PRIMARY.value,
+                        ),
                     ),
                     rx.text(
                         extra.description,
@@ -29,7 +24,7 @@ def card_detail(extra: Extra) -> rx.Component:
                     ),
                     style = text_content_style,
                     align_items = "start",
-                    width = "100%", 
+                    width = "100%",
                     spacing = Size.SMALL.value,
                 ),
                 spacing = "0",

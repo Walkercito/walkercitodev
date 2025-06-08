@@ -8,6 +8,7 @@ from portfolio.components.heading import heading
 from portfolio.styles.styles import MAX_WIDTH, BASE_STYLE, STYLESHEETS
 from portfolio.styles.styles import Size, EmSize
 from portfolio.styles.color import TextColor, Color
+from portfolio.components.card_donate import card_donate
 
 DATA = data.data
 
@@ -19,6 +20,8 @@ def Donations() -> rx.Component:
                 heading(
                     "Donations"
                     ),
+                    
+                ),
                 rx.divider(),
                 footer(DATA.media),
                 spacing = Size.MEDIUM.value,
@@ -28,4 +31,3 @@ def Donations() -> rx.Component:
                 width = "100%"
             )
         )
-    )
