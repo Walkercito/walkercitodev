@@ -17,17 +17,15 @@ def Donations() -> rx.Component:
         navbar(),
         rx.center(
             rx.vstack(
-                heading(
-                    "Donations"
-                    ),
-                    card_donate(DATA.donations)
-                ),
+                heading("Donations"),
+                card_donate(DATA.donations),
                 rx.divider(),
                 footer(DATA.media),
-                spacing = Size.MEDIUM.value,
-                padding_x = EmSize.MEDIUM.value,
-                padding_y = EmSize.BIG.value,
-                max_width = MAX_WIDTH,
-                width = "100%"
+                spacing=Size.MEDIUM.value,
+                padding_x=EmSize.MEDIUM.value,
+                padding_y=EmSize.BIG.value,
+                max_width=MAX_WIDTH,
+                width="100%"
             )
         )
+    )

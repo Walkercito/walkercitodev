@@ -271,9 +271,37 @@
     "donations": [
         {
             "title": "BTC",
-            "description": "My Bitcoin address for donations.",
+            "description": "My BTC address for donations.",
             "value": "bc1qhly9zf94ln8wed08d4xrr8q467ef44tx9et963",
             "icon": "bitcoin",
+            "color": "#f69c3d"
+        },
+        {
+            "title": "ETH",
+            "description": "My ETH address for donations.",
+            "value": "0x3B8dDE5AE6ac33F0F0884fAb40D74488d8426856",
+            "icon": "coins",
+            "color": "#497493"
+        },
+        {
+            "title": "LTC",
+            "description": "My LTC address for donations.",
+            "value": "ltc1q44p76y9lryyktu8rsrzjskjeq5dlsukkn9ekgk",
+            "icon": "coins",
+            "color": "#949494"
+        },
+        {
+            "title": "SOL",
+            "description": "My SOL address for donations.",
+            "value": "48CekkeDX6cLABcarL2i4VM9Xz7Xk6ZkAVvbKr5KwLFz",
+            "icon": "sun",
+            "color": "#f7931a"
+        },
+        {
+            "title": "RTX",
+            "description": "My RTX address for donations.",
+            "value": "48CekkeDX6cLABcarL2i4VM9Xz7Xk6ZkAVvbKr5KwLFz",
+            "icon": "sun",
             "color": "#f7931a"
         }
     ]
