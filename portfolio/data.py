@@ -39,6 +39,13 @@ class Extra(rx.Base):
     description: str
     url: str
 
+class Donations(rx.Base):
+    title: str
+    description: str
+    value: str
+    icon: str
+    color: str
+
 class Data(rx.Base):
     title: str
     description: str
@@ -54,6 +61,7 @@ class Data(rx.Base):
     projects: list[Info]
     training: list[Info]
     extras: list[Extra]
+    donations: list[Donations]
 
 def get_discord_avatar():
     url = f'https://discord.com/api/v10/users/{USER_ID}'
@@ -105,6 +113,8 @@ if 'extras' in json_data:
     json_data['extras'] = [Extra(**extra) for extra in json_data['extras']]
 if 'media' in json_data:
     json_data['media'] = Media(**json_data['media'])
+if "donations" in json_data:
+    json_data['donations'] = [Donations(**donation) for donation in json_data['donations']]
 
 data = Data(**json_data)
 update_avatar_if_needed(data)

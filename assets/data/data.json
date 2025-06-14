@@ -107,18 +107,31 @@
             "github": "https://github.com/Walkercito/arcadiaNET"
         },
         {
-            "icon": "rss",
-            "title": "Telegram Mini App",
-            "subtitle": "Web3 in pure Python",
-            "description": "Developed a Web3 application; “Llama's Garden” for decentralized gaming with TON in pure Python (Currently off due to maintenance).",
+            "icon": "file-music",
+            "title": "Mr. Gato Landing",
+            "subtitle": "Astro landing page",
+            "description": "A sleek and responsive landing page crafted with Astro (my first time using it) to showcase Mr. Gato’s pricing.",
             "technologies": [
                 {
-                    "icon": "devicon-python-plain",
-                    "name": "Python"
+                    "icon": "devicon-astro-plain",
+                    "name": "Astro"
+                },
+                {
+                    "icon": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "icon": "devicon-neovim-plain",
+                    "name": "Neovim"
+                },
+                {
+                    "icon": "devicon-supabase-plain",
+                    "name": "Supabase"
                 }
             ],
-            "image": "/web3logo.jpg",
-            "url": "t.me/LlamaWeb3_bot"
+            "image": "/mrgato-land.png",
+            "url": "https://mrgato.vercel.app",
+            "github": "https://github.com/begonlabs/mrgato-land"
         },
         {
             "icon": "bot",
@@ -253,6 +266,15 @@
             "title": "3D Printing Projects",
             "description": "Developed various custom 3D printing projects using Blender and advanced modeling techniques.",
             "url": ""
+        }
+    ],
+    "donations": [
+        {
+            "title": "BTC",
+            "description": "My Bitcoin address for donations.",
+            "value": "bc1qhly9zf94ln8wed08d4xrr8q467ef44tx9et963",
+            "icon": "bitcoin",
+            "color": "#f7931a"
         }
     ]
 }

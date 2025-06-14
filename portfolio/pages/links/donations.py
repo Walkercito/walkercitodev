@@ -20,7 +20,7 @@ def Donations() -> rx.Component:
                 heading(
                     "Donations"
                     ),
-                    
+                    card_donate(DATA.donations)
                 ),
                 rx.divider(),
                 footer(DATA.media),
