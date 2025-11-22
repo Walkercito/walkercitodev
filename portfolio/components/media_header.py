@@ -6,6 +6,7 @@ from portfolio.styles.styles import Size
 
 
 def media(data: Media) -> rx.Component:
+    """Media links para el header (desktop)."""
     return rx.flex(
         icon_button(
             icon="mail",
@@ -14,15 +15,11 @@ def media(data: Media) -> rx.Component:
             solid=True
         ),
         rx.hstack(
-            icon_button(
-                icon="file-text",
-                url=data.cv
-            ),
-            icon_button(
-                icon="github",
-                url=data.github
-            )
+            icon_button(icon="file-text", url=data.cv),
+            icon_button(icon="github", url=data.github),
+            spacing="2",
         ),
-        spacing=Size.SMALL.value,
-        flex_direction=["column", "column", "row"]
+        spacing="3",
+        flex_direction="column",
+        align="center",
     )

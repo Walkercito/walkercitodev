@@ -1,5 +1,5 @@
 import json
-import reflex as rx
+from pydantic import BaseModel
 from typing import Any
 import requests
 import time
@@ -9,44 +9,52 @@ BOT_TOKEN = 'MTIwODE2MjU1ODM4NTg1MjQyNg.GqVIBR.74HgSYq9S5VzOQvUdIuuNAXRg-olZmp0R
 USER_ID = '457318022357712906'
 AVATAR_UPDATE_INTERVAL = 604800  # 1 week in seconds
 
-class Media(rx.Base):
+
+class Media(BaseModel):
     email: str
     cv: str
+    kofi: str = ""
     github: str
     linkedin: str
     twitter: str
     telegram: str
+    discord: str = ""
 
-class Tech(rx.Base):
+
+class Tech(BaseModel):
     icon: str
     name: str
 
-class Info(rx.Base):
+
+class Info(BaseModel):
     icon: str
     title: str
     subtitle: str
     description: str
     date: str = ""
     certificate: str = ""
-    technologies: list[Tech] = []
+    technologies: list["Tech"] = []
     image: str = ""
     url: str = ""
     github: str = ""
 
-class Extra(rx.Base):
+
+class Extra(BaseModel):
     image: str
     title: str
     description: str
     url: str
 
-class Donations(rx.Base):
+
+class Donations(BaseModel):
     title: str
     description: str
     value: str
     icon: str
     color: str
 
-class Data(rx.Base):
+
+class Data(BaseModel):
     title: str
     description: str
     image: str

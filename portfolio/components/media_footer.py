@@ -1,49 +1,35 @@
 import reflex as rx
 
-
-from portfolio.components.icon_button import icon_button
+from portfolio.components.icon_button import icon_button, social_icon
 from portfolio.data import Media
 from portfolio.styles.styles import Size
 
 
 def media(data: Media) -> rx.Component:
+    """Media links para el footer."""
     return rx.flex(
         icon_button(
-            "mail",
-            f"mailto:{data.email}",
-            data.email,
-            True
+            icon="mail",
+            url=f"mailto:{data.email}",
+            text=data.email,
+            solid=True
         ),
         icon_button(
-            "coffee",
-            data.kofi,
-            "Donate",
-            False,
-            True
+            icon="coffee",
+            url=data.kofi,
+            text="Donate",
+            is_kofi=True
         ),
         rx.hstack(
-            icon_button(
-                "file-text",
-                data.cv
-            ),
-            icon_button(
-                "github",
-                data.github
-            ),
-            icon_button(
-                "linkedin",
-                data.linkedin
-            ),
-            icon_button(
-                "twitter",
-                data.twitter
-            ),
-            icon_button(
-                "send",
-                data.telegram
-            ),
-            spacing = Size.SMALL.value
+            social_icon("file-text", data.cv, "Resume"),
+            social_icon("github", data.github, "GitHub"),
+            social_icon("linkedin", data.linkedin, "LinkedIn"),
+            social_icon("twitter", data.twitter, "Twitter"),
+            social_icon("send", data.telegram, "Telegram"),
+            spacing="2",
         ),
-        spacing = Size.SMALL.value,
-        flex_direction = ["column", "column", "row"]
+        spacing="3",
+        flex_direction="column",
+        align="center",
+        justify="center",
     )
