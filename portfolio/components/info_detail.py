@@ -40,7 +40,7 @@ def info_detail(info: Info) -> rx.Component:
     return rx.box(
         rx.vstack(
             # Header con icono, título y fecha
-            rx.vstack(
+            rx.flex(
                 rx.hstack(
                     # Icon badge
                     icon_badge(info.icon),
@@ -62,26 +62,34 @@ def info_detail(info: Info) -> rx.Component:
                     ),
                     spacing="3",
                     align="center",
-                    width="100%",
                 ),
-                # Fecha badge - ahora debajo en su propia línea
+                # Fecha badge - estilo como icon_badge
                 rx.cond(
                     info.date != "",
-                    rx.hstack(
-                        rx.icon("calendar", size=14, color=Color.ACCENT_SECONDARY.value),
-                        rx.text(
-                            info.date,
-                            font_size="0.8rem",
-                            font_weight="500",
-                            color="var(--text-secondary)",
+                    rx.box(
+                        rx.hstack(
+                            rx.icon("calendar", size=16, color=Color.ACCENT_SECONDARY.value),
+                            rx.text(
+                                info.date,
+                                font_size="0.8rem",
+                                font_weight="600",
+                                color="var(--text-secondary)",
+                            ),
+                            spacing="2",
+                            align="center",
                         ),
-                        spacing="2",
-                        align="center",
+                        padding="0.5rem 0.875rem",
+                        border_radius="10px",
+                        background="var(--icon-badge-bg)",
+                        border="1px solid var(--border-light)",
+                        flex_shrink="0",
                     ),
                 ),
-                spacing="2",
-                align="start",
+                justify="between",
+                align="center",
                 width="100%",
+                flex_wrap="wrap",
+                gap="3",
             ),
 
             # Descripción

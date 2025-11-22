@@ -14,6 +14,7 @@ from portfolio.styles.styles import Size, EmSize
 from portfolio.styles.color import TextColor, Color
 
 from portfolio.pages.blogs.arcadianet_blog import ArcadiaBlog
+from portfolio.pages.blogs.printing_3d_blog import Printing3DBlog
 from portfolio.pages.links.donations import Donations
 
 DATA = data.data
@@ -29,8 +30,46 @@ def custom_divider() -> rx.Component:
     )
 
 
+def animated_background() -> rx.Component:
+    """Fondo animado con grid sutil."""
+    return rx.box(
+        # Grid lines
+        rx.box(
+            position="absolute",
+            top="0",
+            left="0",
+            right="0",
+            bottom="0",
+            background_image="linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px)",
+            background_size="60px 60px",
+            class_name="animate-grid",
+        ),
+        # Glow effect
+        rx.box(
+            position="absolute",
+            top="-50%",
+            left="-50%",
+            width="200%",
+            height="200%",
+            background="radial-gradient(ellipse at center, rgba(139, 92, 246, 0.08) 0%, transparent 50%)",
+            class_name="animate-glow",
+        ),
+        position="fixed",
+        top="0",
+        left="0",
+        width="100vw",
+        height="100vh",
+        pointer_events="none",
+        z_index="-1",
+        overflow="hidden",
+    )
+
+
 def index() -> rx.Component:
     return rx.box(
+        # Fondo animado con grid
+        animated_background(),
+
         # Navbar flotante
         navbar(),
 
@@ -91,6 +130,61 @@ app = rx.App(
         ),
         # CSS personalizado inline
         rx.el.style(CUSTOM_CSS),
+        # Carousel center detection script
+        rx.el.script("""
+            document.addEventListener('DOMContentLoaded', function() {
+                function initCarouselDetection() {
+                    const viewport = document.querySelector('.blogs-carousel-viewport');
+                    if (!viewport) {
+                        setTimeout(initCarouselDetection, 200);
+                        return;
+                    }
+
+                    function updateCenterCard() {
+                        const cards = viewport.querySelectorAll('.blog-carousel-card');
+                        if (!cards.length) return;
+
+                        const viewportRect = viewport.getBoundingClientRect();
+                        const viewportCenter = viewportRect.left + viewportRect.width / 2;
+
+                        let closestCard = null;
+                        let closestDistance = Infinity;
+
+                        cards.forEach(card => {
+                            const cardRect = card.getBoundingClientRect();
+                            const cardCenter = cardRect.left + cardRect.width / 2;
+                            const distance = Math.abs(viewportCenter - cardCenter);
+
+                            if (distance < closestDistance) {
+                                closestDistance = distance;
+                                closestCard = card;
+                            }
+                            card.classList.remove('is-center');
+                        });
+
+                        if (closestCard) {
+                            closestCard.classList.add('is-center');
+                        }
+
+                        requestAnimationFrame(updateCenterCard);
+                    }
+
+                    requestAnimationFrame(updateCenterCard);
+                }
+
+                initCarouselDetection();
+            });
+
+            // Also try on window load as fallback
+            window.addEventListener('load', function() {
+                setTimeout(function() {
+                    const viewport = document.querySelector('.blogs-carousel-viewport');
+                    if (viewport && !viewport.querySelector('.is-center')) {
+                        location.reload();
+                    }
+                }, 500);
+            });
+        """),
     ],
 )
 
@@ -123,4 +217,11 @@ app.add_page(
     title="Donations",
     description="Donations links",
     route="/donations/links"
+)
+
+app.add_page(
+    Printing3DBlog,
+    title="Blog: 3D Printing",
+    description="3D Printing projects and experiments",
+    route="/blogs/3d_printing"
 )

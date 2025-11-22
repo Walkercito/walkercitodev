@@ -70,44 +70,12 @@ CUSTOM_CSS = """
    ANIMATED GRID BACKGROUND
    ============================================================================ */
 
-.animated-grid-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -1;
-    overflow: hidden;
+.animate-grid {
+    animation: grid-move 25s linear infinite;
 }
 
-.animated-grid-bg::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-image:
-        linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
-    background-size: 60px 60px;
-    animation: grid-move 20s linear infinite;
-}
-
-.animated-grid-bg::after {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(
-        ellipse at center,
-        rgba(139, 92, 246, 0.08) 0%,
-        transparent 50%
-    );
-    animation: glow-move 15s ease-in-out infinite;
+.animate-glow {
+    animation: glow-move 20s ease-in-out infinite;
 }
 
 @keyframes grid-move {
@@ -122,18 +90,14 @@ CUSTOM_CSS = """
 @keyframes glow-move {
     0%, 100% {
         transform: translate(0%, 0%) scale(1);
-        opacity: 0.5;
+        opacity: 0.6;
     }
-    25% {
-        transform: translate(10%, 10%) scale(1.1);
-        opacity: 0.7;
+    33% {
+        transform: translate(15%, 10%) scale(1.1);
+        opacity: 0.8;
     }
-    50% {
-        transform: translate(0%, 20%) scale(1);
-        opacity: 0.5;
-    }
-    75% {
-        transform: translate(-10%, 10%) scale(1.1);
+    66% {
+        transform: translate(-10%, 15%) scale(1.05);
         opacity: 0.7;
     }
 }

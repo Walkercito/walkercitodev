@@ -16,7 +16,7 @@
         "telegram": "https://t.me/Walkercito",
         "discord": "https://discord.gg/hwZ2MxAvzW"
     },
-    "about": "As a freelance developer, I specialize in delivering innovative solutions using Python and TypeScript. My expertise spans automation, web development, bot creation, and database systems. With a background in 3D animation and modeling for 3D printing, I bring a creative edge to technical projects. Passionate about game development with Godot and robotics with Raspberry Pi, I combine creativity and technology to craft efficient, tailored solutions. Let's collaborate to bring your ideas to life!",
+    "about": "Hey! I'm a freelance dev who loves building stuff with Python and TypeScript. I do a bit of everything - bots, web apps, automation scripts, you name it. Also super into 3D printing and modeling with Blender. Currently messing around with game dev in Godot and some Raspberry Pi projects. If you've got a cool idea, let's make it happen!",
     "technologies": [
         {
             "icon": "devicon-python-plain",
@@ -43,6 +43,10 @@
             "name": "FastAPI"
         },
         {
+            "icon": "devicon-astro-plain",
+            "name": "Astro"
+        },
+        {
             "icon": "devicon-supabase-plain",
             "name": "Supabase"
         },
@@ -67,6 +71,14 @@
             "name": "Firebase"
         },
         {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-arduino-plain",
+            "name": "Arduino"
+        },
+        {
             "icon": "devicon-bash-plain",
             "name": "Bash"
         },
@@ -87,15 +99,15 @@
         {
             "icon": "code",
             "title": "Freelance Programmer",
-            "subtitle": "Specialized in automation, web development, and bots",
-            "description": "Created advanced bots for Telegram/Discord, web apps, and AI tools.",
+            "subtitle": "Bots, web apps, and automation",
+            "description": "Been building Discord/Telegram bots, web apps, and random automation tools for clients. Mostly Python stuff but I jump into whatever's needed.",
             "date": "2020 - Present"
         },
         {
             "icon": "rotate-3d",
             "title": "3D Artist",
-            "subtitle": "Focused on 3D printing and animation",
-            "description": "Designed and animated 3D models for printing and other creative projects.",
+            "subtitle": "3D printing & animation",
+            "description": "Did a bunch of 3D modeling and animation work, mainly for printing. Created custom designs and helped people bring their ideas to life.",
             "date": "2019 - 2023"
         }
     ],
@@ -103,8 +115,8 @@
         {
             "icon": "bird",
             "title": "ArcadiaNET",
-            "subtitle": "90s-inspired IRC chatroom",
-            "description": "A real-time chatroom inspired by classic 90s IRC platforms. Users connect with a username to share text and emojis in a retro experience. Built with Reflex and accessible globally using ngrok.",
+            "subtitle": "90s-style IRC chatroom",
+            "description": "A throwback to the old-school IRC days. Real-time chat, emojis, retro vibes. Built it with Reflex just for fun and to learn the framework.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -123,7 +135,7 @@
             "icon": "file-music",
             "title": "Mr. Gato Landing",
             "subtitle": "Astro landing page",
-            "description": "A sleek and responsive landing page crafted with Astro (my first time using it) to showcase Mr. Gato’s pricing.",
+            "description": "My first Astro project! Made a clean landing page for Mr. Gato's pricing. Was fun learning a new framework.",
             "technologies": [
                 {
                     "icon": "devicon-astro-plain",
@@ -149,8 +161,8 @@
         {
             "icon": "bot",
             "title": "Mr. Gato",
-            "subtitle": "AI-powered Discord bot",
-            "description": "One of the first entertainment bots to integrate AI for natural conversations with users. This pioneering Discord bot provided an interactive AI chat experience before it became commonplace. (Currently offline)",
+            "subtitle": "AI Discord bot",
+            "description": "Built this way before AI bots were everywhere. It could actually hold conversations with users. Pretty ahead of its time tbh. (Offline now)",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -166,8 +178,8 @@
         {
             "icon": "bluetooth",
             "title": "BlueLights",
-            "subtitle": "LEDs controller via Bluetooth",
-            "description": "BlueLights is a Python library designed for controlling MohuanLED Bluetooth lights. With this library, you can turn lights on/off, change colors, and apply various effects such as fading, strobe, and rainbow cycles. It also includes a GUI using PyQt6 for intuitive control of the lights.",
+            "subtitle": "Bluetooth LED controller",
+            "description": "Got tired of the crappy app for my LED lights so I made my own. Python library + PyQt6 GUI. Can do fading, strobe, rainbow - all the fun stuff.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -189,8 +201,8 @@
         {
             "icon": "bot-message-square",
             "title": "Adeptus Studio",
-            "subtitle": "Discord bot",
-            "description": "An advanced multi-purpose Discord bot with a wide range of features, including moderation, project administration, tickets, payment tracking, status checker, and more. Try it out!",
+            "subtitle": "Multi-purpose Discord bot",
+            "description": "The Swiss army knife of Discord bots. Moderation, tickets, project management, payment tracking... basically everything my server needed.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -210,9 +222,9 @@
         },
         {
             "icon": "home",
-            "title": "Home Automation System",
-            "subtitle": "Automation system",
-            "description": "Developed a home automation system based on Raspberry Pi for smart control.",
+            "title": "Home Automation",
+            "subtitle": "Raspberry Pi smart home",
+            "description": "Turned my place into a mini smart home with a Raspberry Pi. Control lights, check temps, that kind of stuff. Still adding features.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -228,8 +240,8 @@
         {
             "icon": "copy",
             "title": "CopyClip",
-            "subtitle": "Windows-like Clipboard Manager for Linux",
-            "description": "CopyClip is an open-source clipboard manager designed to replicate the advanced clipboard features of Windows 10 on Linux. It allows users to manage clipboard history, pin important items, and customize shortcuts.",
+            "subtitle": "Clipboard manager for Linux",
+            "description": "Missed Windows' clipboard history on Linux, so I built my own. Pin items, search history, custom shortcuts - all the good stuff.",
             "technologies": [
                 {
                     "icon": "devicon-python-plain",
@@ -248,16 +260,16 @@
     "training": [
         {
             "icon": "graduation-cap",
-            "title": "CS50's Introduction to Computer Science",
+            "title": "CS50 - Intro to Computer Science",
             "subtitle": "HarvardX - edX",
-            "description": "Certified in fundamental computer science and programming concepts.",
+            "description": "The classic Harvard CS course. Great foundations in programming and computer science.",
             "date": "2023"
         },
         {
             "icon": "graduation-cap",
-            "title": "CS50's Introduction to Computer Science (Retaking)",
+            "title": "CS50 - Intro to CS (Retake)",
             "subtitle": "HarvardX - edX",
-            "description": "Currently retaking the course to refresh and deepen knowledge.",
+            "description": "Going through it again to solidify concepts and pick up stuff I missed the first time.",
             "date": "2025"
         }
     ],
@@ -265,20 +277,20 @@
         {
             "image": "/demo.png",
             "title": "Blog: ArcadiaNET",
-            "description": "Sharing the development journey, challenges, and reflections on building ArcadiaNET. Blog post coming soon!",
+            "description": "The story behind building ArcadiaNET - what worked, what didn't, and lessons learned. Writing it up soon!",
             "url": "/blogs/arcadianet_blog"
         },
         {
             "image": "/banner.jpg",
             "title": "Python Code Jam",
-            "description": "Participated in Python Game Jam with the team 'ardent-andromedas'. Secured 3rd place by creating an innovative Discord bot themed 'Information Overload'.",
+            "description": "Competed with team 'ardent-andromedas' and we got 3rd place! Made a Discord bot around the 'Information Overload' theme.",
             "url": "https://pythondiscord.notion.site/Python-Discord-2024-Code-Jam-c5c9b7861b6d43a0882d0d4f1c89b7ac?pvs=4"
         },
         {
             "image": "3d.jpg",
             "title": "3D Printing Projects",
-            "description": "Developed various custom 3D printing projects using Blender and advanced modeling techniques.",
-            "url": ""
+            "description": "A collection of my 3D printing work - custom designs, functional prints, and random experiments with Blender.",
+            "url": "/blogs/3d_printing"
         }
     ],
     "donations": [
