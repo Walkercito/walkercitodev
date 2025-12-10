@@ -267,7 +267,7 @@
                     "name": "SQLite"
                 }
             ],
-            "image": "/crypto-bot.svg"
+            "image": "/crypto-bot.html"
         },
         {
             "icon": "file-text",
@@ -284,7 +284,7 @@
                     "name": "Pandas"
                 }
             ],
-            "image": "/government-automation.svg"
+            "image": "/government-automation.html"
         },
         {
             "icon": "file-music",
