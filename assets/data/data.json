@@ -8,7 +8,7 @@
     "location": "Cienfuegos, Cuba.",
     "media": {
         "email": "walkercitoliver@gmail.com",
-        "cv": "/data/cv.docx",
+        "cv": "/data/cv.pdf",
         "kofi": "https://ko-fi.com/walkercito",
         "github": "https://github.com/Walkercito",
         "linkedin": "https://www.linkedin.com/in/oliver-garc%C3%ADa-1a7074287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -16,41 +16,98 @@
         "telegram": "https://t.me/Walkercito",
         "discord": "https://discord.gg/hwZ2MxAvzW"
     },
-    "about": "Hey! I'm a freelance dev who loves building stuff with Python and TypeScript. I do a bit of everything - bots, web apps, automation scripts, you name it. Also super into 3D printing and modeling with Blender. Currently exploring game dev with Godot, embedded systems using Raspberry Pi and ESP32, and backend optimization. If you've got a cool idea, let's make it happen!",
+    "about": "Hey! I'm a freelance dev who loves building stuff with Python and TypeScript. I do a bit of everything - bots, web apps, automation scripts, you name it. Also super into 3D printing and modeling with Blender. Currently messing around with game dev in Godot and some Raspberry Pi projects. If you've got a cool idea, let's make it happen!",
     "technologies": [
-        { "icon": "devicon-python-plain", "name": "Python" },
-        { "icon": "devicon-c-plain", "name": "C" },
-        { "icon": "devicon-cplusplus-plain", "name": "C++" },
-        { "icon": "devicon-javascript-plain", "name": "JavaScript" },
-        { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-        { "icon": "devicon-fastapi-plain", "name": "FastAPI" },
-        { "icon": "devicon-flask-original", "name": "Flask" },
-        { "icon": "devicon-astro-plain", "name": "Astro" },
-        { "icon": "devicon-supabase-plain", "name": "Supabase" },
-        { "icon": "devicon-postgresql-plain", "name": "PostgreSQL" },
-        { "icon": "devicon-mysql-plain", "name": "MySQL" },
-        { "icon": "devicon-sqlite-plain", "name": "SQLite" },
-        { "icon": "devicon-mongodb-plain", "name": "MongoDB" },
-        { "icon": "devicon-redis-plain", "name": "Redis" },
-        { "icon": "devicon-firebase-plain", "name": "Firebase" },
-        { "icon": "devicon-git-plain", "name": "Git" },
-        { "icon": "devicon-arduino-plain", "name": "Arduino" },
-        { "icon": "devicon-bash-plain", "name": "Bash" },
-        { "icon": "devicon-linux-plain", "name": "Linux" },
-        { "icon": "devicon-docker-plain", "name": "Docker" },
-        { "icon": "devicon-kubernetes-plain", "name": "Kubernetes" },
-        { "icon": "devicon-aws-plain", "name": "AWS" },
-        { "icon": "devicon-googlecloud-plain", "name": "Google Cloud" },
-        { "icon": "devicon-blender-original", "name": "Blender" },
-        { "icon": "devicon-godot-plain", "name": "Godot" },
-        { "icon": "devicon-playwright-plain", "name": "Playwright" }
+        {
+            "icon": "devicon-python-plain",
+            "name": "Python"
+        },
+        {
+            "icon": "devicon-c-plain",
+            "name": "C"
+        },
+        {
+            "icon": "devicon-cplusplus-plain",
+            "name": "C++"
+        },
+        {
+            "icon": "devicon-javascript-plain",
+            "name": "JavaScript"
+        },
+        {
+            "icon": "devicon-typescript-plain",
+            "name": "TypeScript"
+        },
+        {
+            "icon": "devicon-fastapi-plain",
+            "name": "FastAPI"
+        },
+        {
+            "icon": "devicon-astro-plain",
+            "name": "Astro"
+        },
+        {
+            "icon": "devicon-supabase-plain",
+            "name": "Supabase"
+        },
+        {
+            "icon": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+        },
+        {
+            "icon": "devicon-sqlite-plain",
+            "name": "SQLite"
+        },
+        {
+            "icon": "devicon-mongodb-plain",
+            "name": "MongoDB"
+        },
+        {
+            "icon": "devicon-redis-plain",
+            "name": "Redis"
+        },
+        {
+            "icon": "devicon-firebase-plain",
+            "name": "Firebase"
+        },
+        {
+            "icon": "devicon-git-plain",
+            "name": "Git"
+        },
+        {
+            "icon": "devicon-arduino-plain",
+            "name": "Arduino"
+        },
+        {
+            "icon": "devicon-bash-plain",
+            "name": "Bash"
+        },
+        {
+            "icon": "devicon-linux-plain",
+            "name": "Linux"
+        },
+        {
+            "icon": "devicon-blender-original",
+            "name": "Blender"
+        },
+        {
+            "icon": "devicon-godot-plain",
+            "name": "Godot"
+        }
     ],
     "experience": [
+        {
+            "icon": "briefcase",
+            "title": "DevOps & Backend Developer",
+            "subtitle": "Begonlabs",
+            "description": "Working on backend systems, scraping pipelines, AI integrations, and automation. Built data platforms, CRM backends, and institutional tools using Python, FastAPI, PostgreSQL, and various cloud services.",
+            "date": "2023 - Present"
+        },
         {
             "icon": "code",
             "title": "Freelance Programmer",
             "subtitle": "Bots, web apps, and automation",
-            "description": "Been building Discord/Telegram bots, web apps, and automation tools for clients. Mostly Python stuff but I jump into whatever's needed.",
+            "description": "Been building Discord/Telegram bots, web apps, and random automation tools for clients. Mostly Python stuff but I jump into whatever's needed.",
             "date": "2020 - Present"
         },
         {
@@ -59,28 +116,175 @@
             "subtitle": "3D printing & animation",
             "description": "Did a bunch of 3D modeling and animation work, mainly for printing. Created custom designs and helped people bring their ideas to life.",
             "date": "2019 - 2023"
-        },
-        {
-            "icon": "server",
-            "title": "DevOps & Backend at Begonlabs",
-            "subtitle": "RitterFinder, OndAI, CETU",
-            "description": "Built and maintain backends, databases, scrapers, automation pipelines, and SaaS systems. Optimized data ingestion, multi-channel messaging, and deployment processes using Python, Playwright, Supabase, and CI/CD workflows.",
-            "date": "2023 - Present"
         }
     ],
     "projects": [
+        {
+            "icon": "school",
+            "title": "CETU",
+            "subtitle": "Institutional Management Tool",
+            "description": "Developed backend for Uruguay's Chamber of Technical Universities to manage students, courses, and academic programs. Built on self-hosted Supabase with role-based access and institutional compliance.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-supabase-plain",
+                    "name": "Supabase"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                }
+            ],
+            "image": "/cetu.png"
+        },
         {
             "icon": "bird",
             "title": "ArcadiaNET",
             "subtitle": "90s-style IRC chatroom",
             "description": "A throwback to the old-school IRC days. Real-time chat, emojis, retro vibes. Built it with Reflex just for fun and to learn the framework.",
             "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-reflex-plain", "name": "Reflex" }
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-reflex-plain",
+                    "name": "Reflex"
+                }
             ],
             "image": "/demo.png",
             "url": "https://arcadia-net.vercel.app/",
             "github": "https://github.com/Walkercito/arcadiaNET"
+        },
+        {
+            "icon": "bot",
+            "title": "OndAI",
+            "subtitle": "AI Agents + Integrated CRM",
+            "description": "Backend infrastructure for a SaaS platform providing AI agents for customer management and sales automation. Integrated multi-channel messaging (Messenger, WhatsApp, Instagram) with real-time customer interaction.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-fastapi-plain",
+                    "name": "FastAPI"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                }
+            ],
+            "image": "/ondai.png",
+            "url": "https://ondai.ai/"
+        },
+        {
+            "icon": "bluetooth",
+            "title": "BlueLights",
+            "subtitle": "Bluetooth LED Diagnostics Suite",
+            "description": "Python toolkit for discovering, controlling, and diagnosing Bluetooth LED strips. Includes device scanning, UUID mapping, stress tests, and remote control features using Bleak and a custom CLI.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-qt-original",
+                    "name": "PyQt6"
+                },
+                {
+                    "icon": "bluetooth-connected",
+                    "name": "Bleak"
+                }
+            ],
+            "image": "pypi.png",
+            "url": "https://pypi.org/project/BlueLights/",
+            "github": "https://github.com/Walkercito/MohuanLED-Bluetooth_LED"
+        },
+        {
+            "icon": "copy",
+            "title": "CopyClip",
+            "subtitle": "Linux Clipboard Manager",
+            "description": "Lightweight, open-source clipboard manager for Linux. Originally built with Python, with a planned migration to C++ for performance. Future UI planned using PyQt6 for better system integration.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-cplusplus-plain",
+                    "name": "C++"
+                },
+                {
+                    "icon": "devicon-qt-original",
+                    "name": "PyQt6"
+                }
+            ],
+            "image": "/copyclip-logo.jpg",
+            "url": "https://github.com/Walkercito/CopyClip/releases",
+            "github": "https://github.com/Walkercito/CopyClip"
+        },
+        {
+            "icon": "database",
+            "title": "RitterFinder",
+            "subtitle": "Spain Industrial Data Platform",
+            "description": "Built and maintain the backend for a large-scale scraping system collecting business data from ~30 industrial directory sites across Spain. Handles geographic data, product info, and market availability using Python and Playwright.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-playwright-plain",
+                    "name": "Playwright"
+                },
+                {
+                    "icon": "devicon-postgresql-plain",
+                    "name": "PostgreSQL"
+                }
+            ],
+            "image": "/ritterfinder.png"
+        },
+        {
+            "icon": "circle-dollar-sign",
+            "title": "Crypto Exchange Bot",
+            "subtitle": "P2P Trading Automation",
+            "description": "Secure automated trading bot for peer-to-peer crypto exchanges in Discord. Handles ticket creation, balance management, payment verification, swap automation, and anti-fraud protection.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-discordjs-plain",
+                    "name": "discord.py"
+                },
+                {
+                    "icon": "devicon-sqlite-plain",
+                    "name": "SQLite"
+                }
+            ],
+            "image": "/crypto-bot.svg"
+        },
+        {
+            "icon": "file-text",
+            "title": "Hacienda Automation",
+            "subtitle": "Document Scraping System",
+            "description": "Daily automated system for a government financial institution. Retrieves emails, downloads PDFs, extracts budget and contract data, and generates Excel reports with AI-powered summaries.",
+            "technologies": [
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-pandas-plain",
+                    "name": "Pandas"
+                }
+            ],
+            "image": "/government-automation.svg"
         },
         {
             "icon": "file-music",
@@ -88,39 +292,43 @@
             "subtitle": "Astro landing page",
             "description": "My first Astro project! Made a clean landing page for Mr. Gato's pricing. Was fun learning a new framework.",
             "technologies": [
-                { "icon": "devicon-astro-plain", "name": "Astro" },
-                { "icon": "devicon-typescript-plain", "name": "TypeScript" },
-                { "icon": "devicon-neovim-plain", "name": "Neovim" },
-                { "icon": "devicon-supabase-plain", "name": "Supabase" }
+                {
+                    "icon": "devicon-astro-plain",
+                    "name": "Astro"
+                },
+                {
+                    "icon": "devicon-typescript-plain",
+                    "name": "TypeScript"
+                },
+                {
+                    "icon": "devicon-neovim-plain",
+                    "name": "Neovim"
+                },
+                {
+                    "icon": "devicon-supabase-plain",
+                    "name": "Supabase"
+                }
             ],
             "image": "/mrgato-land.png",
             "url": "https://mrgato.vercel.app",
             "github": "https://github.com/begonlabs/mrgato-land"
         },
         {
-            "icon": "bot",
+            "icon": "music",
             "title": "Mr. Gato",
-            "subtitle": "AI Discord bot",
-            "description": "Built this way before AI bots were everywhere. It could actually hold conversations with users. Pretty ahead of its time tbh. (Offline now)",
+            "subtitle": "Discord Music Bot",
+            "description": "Personal Discord bot that plays music from YouTube, Spotify, SoundCloud, and Deezer. Extracts metadata (title, artist, cover) and intelligently searches YouTube for equivalent tracks from external links.",
             "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-discordjs-plain", "name": "discord.py" }
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-discordjs-plain",
+                    "name": "discord.py"
+                }
             ],
             "image": "/mrgato.jpg"
-        },
-        {
-            "icon": "bluetooth",
-            "title": "BlueLights",
-            "subtitle": "Bluetooth LED controller",
-            "description": "Got tired of the crappy app for my LED lights so I made my own. Python library + PyQt6 GUI. Can do fading, strobe, rainbow - all the fun stuff.",
-            "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-qt-original", "name": "PyQt6" },
-                { "icon": "bluetooth-connected", "name": "Bleak" }
-            ],
-            "image": "pypi.png",
-            "url": "https://pypi.org/project/BlueLights/",
-            "github": "https://github.com/Walkercito/MohuanLED-Bluetooth_LED"
         },
         {
             "icon": "bot-message-square",
@@ -128,36 +336,21 @@
             "subtitle": "Multi-purpose Discord bot",
             "description": "The Swiss army knife of Discord bots. Moderation, tickets, project management, payment tracking... basically everything my server needed.",
             "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-discordjs-plain", "name": "discord.py" },
-                { "icon": "devicon-sqlite-plain", "name": "SQLite" }
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-discordjs-plain",
+                    "name": "discord.py"
+                },
+                {
+                    "icon": "devicon-sqlite-plain",
+                    "name": "SQLite"
+                }
             ],
             "image": "/adeptus.jpg",
             "url": "https://discord.gg/hwZ2MxAvzW"
-        },
-        {
-            "icon": "dollar-sign",
-            "title": "Crypto Exchange Bot",
-            "subtitle": "P2P trading automation",
-            "description": "Automated secure crypto trades between users on Discord, including ticket creation, balance handling, swap automation, fee collection, and anti-fraud mechanisms.",
-            "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-discordjs-plain", "name": "discord.py" },
-                { "icon": "devicon-sqlite-plain", "name": "SQLite" }
-            ],
-            "image": "/crypto-bot.jpg"
-        },
-        {
-            "icon": "file-text",
-            "title": "Hacienda Scraper",
-            "subtitle": "Automated PDF data extraction",
-            "description": "Daily scraping system for a public financial institution. Downloads PDFs, extracts info like budget, contract, entity, province, and duration, and generates an Excel report with AI summary.",
-            "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-playwright-plain", "name": "Playwright" },
-                { "icon": "devicon-pandas-plain", "name": "Pandas" }
-            ],
-            "image": "/hacienda.jpg"
         },
         {
             "icon": "home",
@@ -165,23 +358,103 @@
             "subtitle": "Raspberry Pi smart home",
             "description": "Turned my place into a mini smart home with a Raspberry Pi. Control lights, check temps, that kind of stuff. Still adding features.",
             "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-raspberrypi-plain", "name": "Raspberry Pi 5" }
+                {
+                    "icon": "devicon-python-plain",
+                    "name": "Python"
+                },
+                {
+                    "icon": "devicon-raspberrypi-plain",
+                    "name": "Raspberry Pi 5"
+                }
             ],
             "image": "/homeassistant-logo.jpg"
+        }
+    ],
+    "training": [
+        {
+            "icon": "graduation-cap",
+            "title": "Self-Taught Software Developer",
+            "subtitle": "Continuous Learning",
+            "description": "Focused on computer science fundamentals, backend and frontend development, and practical software engineering through structured online programs and real-world projects.",
+            "date": "2019 - Present"
         },
         {
-            "icon": "copy",
-            "title": "CopyClip",
-            "subtitle": "Clipboard manager for Linux",
-            "description": "Missed Windows' clipboard history on Linux, so I built my own. Pin items, search history, custom shortcuts - all the good stuff.",
-            "technologies": [
-                { "icon": "devicon-python-plain", "name": "Python" },
-                { "icon": "devicon-tkinter-plain", "name": "Tkinter" }
-            ],
-            "image": "/copyclip-logo.jpg",
-            "url": "https://github.com/Walkercito/CopyClip/releases",
-            "github": "https://github.com/Walkercito/CopyClip"
+            "icon": "graduation-cap",
+            "title": "CS50x: Introduction to Computer Science",
+            "subtitle": "Harvard University",
+            "description": "The classic Harvard CS course covering algorithms, data structures, memory management, web development, and software engineering fundamentals.",
+            "date": "2023"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "CS50P: Introduction to Programming with Python",
+            "subtitle": "Harvard University",
+            "description": "Deep dive into Python programming, covering functions, libraries, data structures, testing, file I/O, and regular expressions.",
+            "date": "2023"
+        },
+        {
+            "icon": "graduation-cap",
+            "title": "JavaScript Algorithms and Data Structures",
+            "subtitle": "freeCodeCamp",
+            "description": "Comprehensive course on JavaScript fundamentals, ES6, regular expressions, debugging, basic data structures, and algorithm scripting.",
+            "date": "2022"
+        }
+    ],
+    "extras": [
+        {
+            "image": "/demo.png",
+            "title": "Blog: ArcadiaNET",
+            "description": "The story behind building ArcadiaNET - what worked, what didn't, and lessons learned. Writing it up soon!",
+            "url": "/blogs/arcadianet_blog"
+        },
+        {
+            "image": "/banner.jpg",
+            "title": "Python Code Jam",
+            "description": "Competed with team 'ardent-andromedas' and we got 3rd place! Made a Discord bot around the 'Information Overload' theme.",
+            "url": "https://pythondiscord.notion.site/Python-Discord-2024-Code-Jam-c5c9b7861b6d43a0882d0d4f1c89b7ac?pvs=4"
+        },
+        {
+            "image": "3d.jpg",
+            "title": "3D Printing Projects",
+            "description": "A collection of my 3D printing work - custom designs, functional prints, and random experiments with Blender.",
+            "url": "/blogs/3d_printing"
+        }
+    ],
+    "donations": [
+        {
+            "title": "BTC",
+            "description": "My BTC address for donations.",
+            "value": "bc1qhly9zf94ln8wed08d4xrr8q467ef44tx9et963",
+            "icon": "bitcoin",
+            "color": "#f69c3d"
+        },
+        {
+            "title": "ETH",
+            "description": "My ETH address for donations.",
+            "value": "0x3B8dDE5AE6ac33F0F0884fAb40D74488d8426856",
+            "icon": "coins",
+            "color": "#497493"
+        },
+        {
+            "title": "LTC",
+            "description": "My LTC address for donations.",
+            "value": "ltc1q44p76y9lryyktu8rsrzjskjeq5dlsukkn9ekgk",
+            "icon": "coins",
+            "color": "#949494"
+        },
+        {
+            "title": "SOL",
+            "description": "My SOL address for donations.",
+            "value": "48CekkeDX6cLABcarL2i4VM9Xz7Xk6ZkAVvbKr5KwLFz",
+            "icon": "sun",
+            "color": "#f7931a"
+        },
+        {
+            "title": "RTX",
+            "description": "My RTX address for donations.",
+            "value": "48CekkeDX6cLABcarL2i4VM9Xz7Xk6ZkAVvbKr5KwLFz",
+            "icon": "sun",
+            "color": "#f7931a"
         }
     ]
 }
